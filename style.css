@@ -1,10 +1,3 @@
-/* ==========================================================================
-   MEOW CAFÉ — เหมียว คาเฟ่
-   Design tokens: cream #FFF6EC · coffee brown #4A3428 · blush pink #E8A0A5
-   Display font: Prompt · Body font: Sarabun
-   Signature motif: paw-print trail used as bullets & dividers
-   ========================================================================== */
-
 :root {
   --cream: #FFF6EC;
   --cream-deep: #F0E4D3;
@@ -60,8 +53,6 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
   padding: 0 1.5rem;
 }
 
-/* ---------- paw-print signature motif ---------- */
-
 .paw-icon {
   width: 20px;
   height: 20px;
@@ -75,9 +66,6 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
   gap: 1.2rem;
   padding: 2.2rem 0;
 }
-
-
-/* ---------- navbar ---------- */
 
 .site-header {
   position: sticky;
@@ -134,8 +122,6 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
 .nav-links a[aria-current="page"]::after { width: 100%; }
 .nav-links a[aria-current="page"] { color: var(--pink); }
 
-/* ---------- buttons ---------- */
-
 .btn {
   display: inline-block;
   font-family: var(--font-display);
@@ -167,8 +153,6 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
   transform: translateY(-3px);
 }
 
-/* ---------- hero ---------- */
-
 .hero {
   display: flex;
   align-items: center;
@@ -180,8 +164,6 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
 .hero-copy { flex: 1 1 420px; }
 .hero-copy p { font-size: 1.1rem; max-width: 46ch; }
 .hero-art { flex: 1 1 320px; max-width: 380px; margin: 0 auto; }
-
-/* ---------- features (grid) ---------- */
 
 .section { padding: 3.5rem 0; }
 .section-cream-deep { background: var(--cream-deep); }
@@ -214,8 +196,6 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
 .feature-icon .paw-icon { width: 30px; height: 30px; color: var(--brown); }
 .feature-card h3 { font-size: 1.15rem; }
 .feature-card p { margin: 0; font-size: 0.95rem; }
-
-/* ---------- testimonials ---------- */
 
 .testimonial-grid {
   display: flex;
@@ -253,8 +233,6 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
 }
 .testimonial-person span { font-weight: 600; font-family: var(--font-display); }
 
-/* ---------- CTA ---------- */
-
 .cta-section {
   background: var(--pink);
   color: var(--brown-deep);
@@ -264,8 +242,6 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
 .cta-section h2 { color: var(--brown-deep); }
 .cta-section .btn-primary { background: var(--brown); color: var(--cream); }
 .cta-section .btn-primary:hover { background: var(--brown-deep); }
-
-/* ---------- footer ---------- */
 
 .site-footer {
   background: var(--brown);
@@ -319,8 +295,6 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
   opacity: 0.75;
 }
 
-/* ---------- page header (menu / contact) ---------- */
-
 .page-header {
   text-align: center;
   padding: 3.5rem 1.5rem 2rem;
@@ -328,7 +302,6 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
   margin: 0 auto;
 }
 
-/* ---------- product grid (menu page) ---------- */
 
 .product-grid {
   display: grid;
@@ -374,7 +347,6 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
 }
 .promo-banner .paw-icon { color: var(--pink); }
 
-/* ---------- contact page ---------- */
 
 .contact-layout {
   display: flex;
@@ -430,7 +402,6 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 600; }
   filter: grayscale(15%);
 }
 
-/* ---------- responsive ---------- */
 
 @media (max-width: 860px) {
   .feature-grid, .product-grid { grid-template-columns: repeat(2, 1fr); }
